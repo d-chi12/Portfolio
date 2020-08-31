@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+// <--------top-------> //
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  height: 480px;
+  background-size: auto 100%;
+  background: url(/images/top.jpg) center center;
+}
+
+.logo-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 94px;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+.logo-desc {
+  display: block;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}
