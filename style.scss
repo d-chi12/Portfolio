@@ -5,6 +5,10 @@
   text-align: center!important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
 
 // <--------top-------> //
 
@@ -60,4 +64,42 @@
 
 .text-dark {
   color: #343a40!important;
+}
+
+// <--------skill-------> //
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.bg-primary {
+  background-color: #CAE5CD!important;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.content-section-heading h2 {
+  font-size: 3rem;
+}
+
+#text-center {
+  text-align: center!important;
+}
+
+.skill-desc-title {
+  margin-bottom: 3px;
+  font-size: 24px;
+  padding: 24px;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+  background-color: transparent;
 }
