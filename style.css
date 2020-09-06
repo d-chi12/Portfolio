@@ -1,9 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .text-center {
   text-align: center !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
+}
+
+#global-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: .5s;
+  transition: .5s;
+  width: 100%;
+}
+
+#global-nav.m_fixed {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#global-nav .inner {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 80px 0;
+  width: 768px;
 }
 
 .logo {
@@ -17,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 480px;
+  height: 600px;
   background-size: auto 100%;
   background: url(/images/top.jpg) center center;
 }
@@ -49,8 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .icon-img {
   border-radius: 50%;
-  width: 100%;
-  height: 70%;
+  width: 400px;
+  height: 400px;
   padding: 20px;
 }
 
